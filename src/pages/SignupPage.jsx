@@ -119,7 +119,7 @@ function SignupPage() {
         <div className="mb-6 flex items-start gap-3 bg-cyan-950/40 border border-cyan-800/40 p-4.5 rounded-2xl">
           <ShieldCheck size={20} className="text-cyan-400 shrink-0 mt-0.5" />
           <p className="text-xs text-cyan-200/90 leading-relaxed">
-            <strong>Campus Verification Required:</strong> We only accept official university/college emails (e.g., <code>student@mit.edu</code>). Personal emails are not allowed to ensure trust and safety.
+            <strong>Campus Verification Required:</strong> We only accept official university/college emails (e.g., student@rajalakshmi.edu.in). Personal emails are not allowed to ensure trust and safety.
           </p>
         </div>
 
@@ -131,7 +131,7 @@ function SignupPage() {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            placeholder="yourname@college.edu"
+            placeholder="yourname@rajalakshmi.edu.in"
             error={errors.email}
             icon={Mail}
             required

@@ -99,7 +99,7 @@ function LoginPage() {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            placeholder="student@college.edu"
+            placeholder="student@rajalakshmi.edu.in"
             error={errors.email}
             icon={Mail}
             required
